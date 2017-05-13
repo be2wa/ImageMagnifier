@@ -5,3 +5,30 @@
     border: 0;
 }
 
+$main-color: #c9c9c9;
+
+.photo {
+    width: 400px;
+    height: 400px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b7/Mona_Lisa_face_800x800px.jpg');
+    background-size: 400px;
+    position: relative;
+    .magnifier {
+        width: 200px;
+        height: 200px;
+        border: 1px solid $main-color;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: $main-color;
+        opacity: 0.5;
+    }
+}
+
+.zoom {
+    width: 400px;
+    height: 400px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b7/Mona_Lisa_face_800x800px.jpg');
+    background-size: 800px;
+    background-repeat: no-repeat;
+}
